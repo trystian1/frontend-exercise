@@ -2,15 +2,15 @@
 An application build in Vanilla Javascript. Which retrieves items from a json file which are shown in a list. When the user applies filters the state of the filters is saved in the IndexDB of the browser. So when the user has filtered once, the page can safely be reloaded. On the right side of the screen the applied filters are show.
 
 ## Structure
-#Components
+# Components
 The application is build in reusable components. Which are meant to be generic an can be used on multiple places in the application
-#Framework
+# Framework
 Then a little framework which consists of three parts.  A generic html-builder, which outputs htmls which can be used in the application.
 Inside the framework is also an indexedDB helper to save data in the interal database of the user.
 Also inside the framework there is a generic view component which is used by the views
-#Repository
+# Repository
 Used for fetching the items from the json file. When there are items in the indexedDB those are fetched in favor of the file.
-#Views
+# Views
 The view layer of the application to show the functionality on the screen
 
 ## Running the application
