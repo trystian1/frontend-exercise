@@ -1,0 +1,22 @@
+.search-input-wrap {
+
+  position: relative;
+  font-size: 110%;
+
+  #search-input {
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: .25em;
+    width: 100%;
+    box-shadow: 0;
+    border: 1px solid #c3c1bc;
+    box-sizing: border-box;
+  }
+
+  .icon-search {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+  }
+
+}

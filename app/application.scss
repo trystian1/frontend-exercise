@@ -1,0 +1,16 @@
+#multi-select-wrapper{
+  display: inline-block;
+  vertical-align: top;
+}
+#result-wrapper {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+
+  h2 {
+    font-size: 110%;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+}
