@@ -38,7 +38,7 @@ export default class {
   buildItemsFromIdb(items) {
     return items.map(item => {
       return new FilterItemModel(item.isSelected, item.name);
-    })
+    });
   }
 
   fetchFromApi() {
@@ -67,7 +67,7 @@ export default class {
         .then(db => {
 
             var index = db.transaction('search-data')
-              .objectStore('search-data').index('by-id');
+              .objectStore('search-data');
 
             index.getAll().then(items => {
               resolve(items)
