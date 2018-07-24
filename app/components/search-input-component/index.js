@@ -40,7 +40,6 @@ export default class {
   }
 
   clearInput() {
-    console.log('CLEAR INPUT')
     this.view.querySelector("#search-input").value = '';
   }
 
